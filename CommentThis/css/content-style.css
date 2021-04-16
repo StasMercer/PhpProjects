@@ -1,0 +1,293 @@
+.wrapper{
+    
+    overflow-y: scroll;
+    background-color: white;
+    
+    
+    height: 790px;
+    
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+}
+
+[id^="commblock"]{
+  border-top: 1px solid silver;
+  margin-top:30px;
+}
+
+.cabinet{
+    text-align:center;
+   padding:5px;
+    height: 70px;
+    background-color: rgba(181, 181, 181, 0.35);
+}
+
+.wrapper h3{
+    margin-left: 20px;
+}
+
+.c-block{
+ display:block;
+}
+.autoriz{
+  padding: 10px;
+  height: 370px;
+}
+
+.c-box{
+    color: black;
+    position: relative;
+    box-shadow: 0 0 10px #a8a8a8;
+    transition: 0.2s ease;
+    margin-top: 10px;
+    margin: 30px;
+width:85%;
+margin:0 auto;
+   height:260px;
+    border-radius:10px;
+}
+
+.c-box h3{
+width:85%;
+}
+.comment{
+    font-size:16px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+   
+}
+
+.table{
+ width:85%;
+ margin:0 auto;
+}
+.comment .fa{
+  font-size:35px;
+margin-right:10px;
+}
+
+.comment .com-author{
+
+    float: left;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+   
+}
+
+
+
+.comment .com-date{
+     font-size:12px;
+    color:#3e3e3e;  
+    bottom: 0;
+    right: 0;
+    margin-top: 30px;
+    float: right;
+    height: 20px;
+    
+}
+
+.comment .comment-cont{
+
+ float:left;
+  background-color: #f1f1f1;
+   padding:10px;
+   margin-left:65px;
+    margin-bottom: 20px;
+   width:80%;
+   border-radius:5px;
+  text-align:left;
+}
+.c-box img{
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+    width: 130px;
+    
+    
+}
+
+
+
+.read{
+       
+    font-size:18px;
+    margin-right: 20px;
+    text-align: justify;
+    padding: 10px;
+    overflow: hidden;
+    height: 115px;
+    margin:1%;
+  width:98%;
+    
+    float: left;
+    line-height: 25px;
+}
+
+.c-box h3{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.c-box span{
+    padding: 20px;
+    height: 50px;
+    width: 100%;
+   box-shadow: 0 -4px 10px #e2e2e2;
+    color: gray;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+.c-box a{
+    float: right;
+    margin-top: -8px;
+    padding: 5px;
+    color: black;
+}
+
+.c-box a:hover{
+        border-bottom: 1px solid green ;
+}
+
+.msg{
+   color:white;
+    background-color: rgba(0,0,0,0);
+    margin:0;
+    width: 5%;
+    bottom: 0;
+    height: 100%;
+   float: right;
+    outline: 0 !important;
+    border-radius: 0px;
+    border: none;
+   
+    
+    font-size: 18px;
+}
+
+.msg-form{
+ margin:0;
+}
+.msg:hover{
+    
+    color: green;
+}
+
+.c-box form{
+    background-color: rgb(106, 173, 125);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin:0;
+    display: none;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    height: 70px;
+    padding: 15px;
+}
+
+.message{  
+      margin-left: 40px;
+    outline: 0;
+    padding-left: 2%;
+    height: 100%;
+    width: 90%;
+    border-radius: 7px;
+    border: none;
+    border: 1px solid #3cb868;
+}
+
+.close-news{
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: #64A877;
+}
+
+.close-news-2{
+    left: 0;
+    float: left;
+    margin-top: 13px;
+    color: white;
+    margin-left: 12px;
+   width:20px;
+}
+.c-box .fa-close{
+    display: none;
+}
+
+.close-news:hover{
+    cursor: pointer;
+    color: #487955;
+}
+
+.open-box .fa-close{
+    display: block;
+     font-size:24px;
+
+}
+
+.open-box{
+    height: 90%;
+    
+}
+
+.open-read::-webkit-scrollbar-thumb { height: 90px; background-color: white; border-radius: 3px;}
+.open-read{
+    width:98%;
+    overflow: auto;
+    height: 80%;
+}
+
+@media (min-width: 700px){
+    .c-box{
+        font-size: 11px;
+    }
+   
+    .msg{
+      font-size:16px;
+      width:2%;
+   }
+}
+
+@media (min-width: 1200px){
+    .c-box{
+        font-size: 13px;
+    }
+    
+}
+
+@media (min-width: 1300px){
+    .c-box{
+        font-size: 14px;
+    }
+    
+     .msg{
+      font-size:18px;
+      width:5%;
+   }
+}
+
+@media (min-width: 1600px){
+    
+    .c-box{
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media (min-width: 1760px){
+    
+   
+}

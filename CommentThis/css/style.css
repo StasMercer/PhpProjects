@@ -1,0 +1,290 @@
+@font-face {
+    font-family: Comfortaa; 
+    src: url(/fonts/Comfortaa-Regular.ttf); 
+   }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa",sans-serif;
+    
+}
+
+ 
+
+::-webkit-scrollbar { width: 4px; height: 3px;}
+
+::-webkit-scrollbar-button { height: 0px; background-color: #b1b7ba;; }
+
+::-webkit-scrollbar-track {  background-color: #ffffff;;}
+
+#top-news::-webkit-scrollbar-track-piece { background-color: #3F4551;}
+ #events::-webkit-scrollbar-track-piece { background-color: #3F4551;}
+#last-news::-webkit-scrollbar-track-piece { background-color: #3F4551;}
+#search::-webkit-scrollbar-track-piece { background-color: #3F4551;}
+::-webkit-scrollbar-thumb { height: 90px; background-color: #64A877; border-radius: 3px;}
+
+::-webkit-scrollbar-corner { background-color: #3F4551;}}
+
+::-webkit-resizer { background-color: #666;}
+
+
+body{
+    background-color: #ebeced;
+}
+.css-text{
+position:absolute;
+}
+
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.main{
+    position: relative;
+}
+
+ header .active{
+    background-color:#548b63; 
+}
+
+header {
+    
+    
+    
+    font-family: 'Comfortaa',sans-serif;
+     background-color: #64A877;
+    
+    height: 70px;
+    
+}
+
+
+
+.links {
+   text-align: center;
+    line-height: 70px;
+    height: 100%;
+    color: white;
+    transition: all .5s ease;
+}
+
+.links:hover {
+    background-color: #5b9a6c;
+   color: #ffffff;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.loginfo{
+ margin:1%;
+}
+
+
+.sign{
+    
+    background-color: #548b63;
+    transition: .5s ease;
+    margin-right: 20px;
+    line-height: 40px;
+    height: 40px;
+    margin-top: 15px;
+    float: right;
+    color: ghostwhite;
+   
+    border-radius: 5px;
+}
+
+.sign:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: .5s ease;
+    text-shadow: none;
+}
+
+.wrapper form{
+    margin: 1%;
+}
+
+.first-sign{
+overflow:hidden;
+  height:600px;
+  width:100%;
+  
+}
+
+.f-block{
+    
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    margin-top: 25px;
+    height: 250px;
+    width: 47%;
+    float: left;
+    line-height: 22px;
+    box-shadow: 0 0 20px #b9b9b9;
+}
+
+
+.f-block h3{
+    margin: 0;
+    margin-top: 10px;
+    
+}
+
+.f-block img{
+   
+    float: left;
+    height: 150px;
+    
+   margin-right: 2%;
+    margin-left: 2%;
+}
+
+.f-block p{
+    height: 150px;
+    overflow: hidden;
+    padding-left: 10px;
+    margin-top: 10px;
+    float: left;
+       
+}
+
+
+
+.under-block{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: 0 -3px 20px #c6c6c6;
+    height: 45px;
+    width: 100%;
+}
+
+.under-block a{
+   
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+   
+    
+    
+}
+.under-block a:hover{
+    border-bottom: 1px solid green;
+    color: black;
+    
+}
+
+
+.search {
+    outline: none;
+    margin-top: 20px;
+    padding: 0;
+   width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+input {
+    outline: 0 !important;
+}
+
+.create{
+    margin: 1%;
+    
+    width: 98%;
+}
+
+.create input{
+    margin-bottom: 20px;
+}
+
+.create button{
+    margin-top: 20px;
+}
+
+.create p{
+    font-size: 18px;
+}
+
+
+footer{
+   
+    border-top: 1px solid silver;
+    bottom:  0;
+    background-color: gainsboro;
+    height: 110px;
+    width: 100%;
+}
+
+.foot{
+    
+    padding-top: 40px;
+    text-align: center;
+}
+
+@media (min-width: 640px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media (min-width: 1040px) {
+    .logo {
+        display: block;
+        height: 70px;
+        width: 350px;
+    }
+}
+@media (min-width: 640px) {
+    header .links {
+        font-size: 12px;
+    }
+    .first-sign{
+        overflow-y: scroll;
+    }
+    
+    .f-block{
+        width:95%;
+    }
+   .cabinet{
+      font-size: 11px;
+}
+
+}
+
+@media (min-width: 800px) {
+    header .links {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1600px) {
+    header .links {
+        font-size: 18px;
+    }
+    .cabinet{
+      font-size: 16px;
+}
+}
+
+@media (min-width:1825px){
+    .first-sign{
+        overflow-y: auto;
+    }
+    .f-block{
+        width:47%;
+    }
+}

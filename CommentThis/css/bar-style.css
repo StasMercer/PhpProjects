@@ -1,0 +1,199 @@
+li{
+    list-style-type: none;
+}
+
+.bar{
+   float: left;
+    height: 790px;
+    width: 8%;
+    background-color: #272C32;
+    color: #6E7176;
+}
+
+.bar-point{
+    float: left;
+    
+    width: 20%;
+}
+
+.bar li{
+    transition: .5s ease;
+    
+    text-align: center;
+    height: 80px;
+}
+
+.bar .fa{
+    font-size: 18px;
+}
+
+#b-top-news{
+    padding-top: 10px;
+}
+
+.search-result li{ 
+    width:100%;
+     text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px solid silver;
+    height: 70px;
+    padding-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.search-result{
+ width:85%;
+}
+#b-man-news{
+    padding-top: 10px;
+}
+
+.bar li:hover{
+    color: #64A877;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+#events{
+    overflow-y: scroll;
+    display: none;
+    background-color: #3F4551;
+    color: white;
+    float: left;
+    
+    height: 790px;
+    
+    text-align: center;
+}
+
+.t-block a{
+ color:white;
+}
+
+.t-block a:hover{
+  color:silver;
+  
+}
+
+#events li{
+    text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px solid silver;
+    height: 70px;
+    padding-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+#events li:first-child{
+    margin-top: 10px;
+    border-top: 1px solid silver;
+}
+
+
+#top-news{
+    overflow-y: scroll;
+     background-color: #3F4551;
+    color: white;
+    float: left;
+    display:none;
+    height: 790px;
+    
+    text-align: center;
+    
+}
+
+#top-news li{
+     text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px solid silver;
+    height: 70px;
+    padding-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#top-news li:first-child{
+    margin-top: 10px;
+     border-top: 1px solid silver;
+}
+
+#last-news{
+    display: none;
+    overflow-y: scroll;
+     background-color: #3F4551;
+    color: white;
+    float: left;
+    
+    height: 790px;
+    
+    text-align: center;
+    
+}
+
+#last-news li{
+     text-align: left;
+    padding-left: 10px;
+    border-bottom: 1px solid silver;
+    height: 70px;
+    padding-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#last-news li:first-child{
+    margin-top: 10px;
+     border-top: 1px solid silver;
+}
+
+#search{
+     display: none;
+    overflow-y: scroll;
+     background-color: #3F4551;
+    color: white;
+    float: left;
+    
+    height: 790px;
+    
+    text-align: center;
+}
+
+#search input{
+    padding-left: 10px;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+@media (min-width: 640px) {
+    .bar-point{
+        font-size: 13px;
+    }
+    
+    
+}
+
+@media (min-width: 640px) {
+    .bar-point li{
+        font-size: 11px;
+    }
+    
+    
+}
+
+@media (min-width: 1600px) {
+    .bar{
+        
+        width: 5%;
+    }
+    
+    .bar-point li{
+        font-size: 16px;
+    }
+    
+}
